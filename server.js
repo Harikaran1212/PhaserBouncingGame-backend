@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 
 const PORT = process.env.PORT || 5000;
-const CLIENT_URL = process.env.CLIENT_URL || 'http://localhost:3000';
+const CLIENT_URL = process.env.CLIENT_URL || 'https://phaser-bouncing-game-harikarans-projects-17414b93.vercel.app/';
 
 const server = http.createServer(app);
 const io = new Server(server, {
